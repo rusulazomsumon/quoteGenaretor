@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    /* gradient color */
+    background: linear-gradient(to right, #B565A7, #641455);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /* placeing the container  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Header Title and text */
+header{
+    padding: 5px;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+    background-color: #26578f;
+    color: #ffffff;
+}
+/* RAS Daily Link */
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Conterner of Calculator  */
+.container{
+    width: 1200px;
+    height: 600px;
+    background: linear-gradient(to left, #B565A7, #641455);
+} 
+
+.queContainer{
+    width: 100%;
+    height: auto%;
+
+    /* centering the calculator */
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.quoteCard{
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #eeb6b5;
+    border: 1px 5px 5px solid #955251;
+    box-shadow: 5px 8px 10px #98B4D4;
+}
+
+/* quote Area   */
+.queteArea {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+.queteArea .quote{
+    padding: 5px 0px 5px 0px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.atuthorArea {
+    width: 100%;
+    height: auto;
+}
+.atuthorArea .atuthor{
+    margin-right: 10px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+/* Button area  */
+.buttonArea {
+    margin: 3px 0px 10px 0px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+}
+#getQuoBtn{
+    padding: 5px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #641455;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+/* Ferure area */
+.fetureArea {
+    width: 100%;
+    height: auto;
+
+}
+
+/* 
+TODO: add background.
+TODO: copy, share
+TODO: selecte language  
+*/
+
